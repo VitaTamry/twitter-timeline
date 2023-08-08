@@ -296,3 +296,7 @@ form .row:first-child .floating-label-form-group {
 body {
   -webkit-tap-highlight-color: #0085A1;
 }
+
+#weather-banner {
+  background: linear-gradient(to right, blue, orange);
+}
