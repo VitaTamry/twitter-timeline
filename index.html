@@ -138,10 +138,17 @@
                   this.notFound = true;
                 }else{
             this.notFound = false;
-
+      
                 }
               })  
+          },
+          fetchWeather() {
+            // Add logic here to fetch the weather data from a weather API
+            // and update the "weather" data property.
           }
+        },
+        created() {
+          this.fetchWeather();
         }
       });
     </script>
