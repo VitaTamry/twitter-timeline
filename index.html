@@ -55,6 +55,7 @@
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
     <div id="app">
+      <div id="weather-banner">{{ weather }}</div>
       <header
         class="intro-header"
         style="background-image: url('img/head-bg.png')"
@@ -115,7 +116,7 @@
       new Vue({
         el: "#app",
         data() {
-          return { username: null, notFound: null };
+          return { username: null, notFound: null, weather: null };
         },
         methods: {
           update() {
