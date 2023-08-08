@@ -298,5 +298,5 @@ body {
 }
 
 #weather-banner {
-  background: linear-gradient(to right, blue, orange);
+  background: linear-gradient(to right, lightblue, darkblue);
 }
